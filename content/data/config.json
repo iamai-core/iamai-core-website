@@ -2,6 +2,13 @@
     "type": "Config",
     "favicon": "\\images\\iamai.ico",
     "header": {
+        "logo": {
+            "type": "Image",
+            "url": "/images/iamai-core-icon-circle2-32x32.png",
+            "altText": "iamai-core logo",
+            "width": 32,
+            "height": 32
+        },
         "title": "iamai-core",
         "navLinks": [
             {
