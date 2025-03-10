@@ -47,18 +47,21 @@ sections:
 
       ![Wil Bown, Founder](/images/Wil-majestic-portrait-bw-300x300.jpg)
 
-      **Wil Bown** is the founder and lead software architect of iamai-core. With extensive experience
-      in artificial intelligence and software development, Wil founded iamai-core with a vision to make
-      powerful AI accessible to everyone while preserving privacy and personal control.
+      **Wil Bown** is the founder and lead architect of iamai-core, bringing over 35 years of innovative
+      development experience to the project. As a specialist in AI architectures (Transformer, RL, GAN, LSTM,
+      etc) with expertise in llama.cpp, PyTorch, and TensorFlow, Wil has consistently pioneered at the
+      intersection of emerging technologies. His background includes creating one of the first viable
+      Blockchain + AI projects (Neureal), implementing reinforcement learning AI agents, and building
+      open-source frameworks for AI experimentation.
 
-      Wil believes that the future of AI is not in massive cloud services owned by corporations, but in
-      personal AI systems that learn from and grow with their individual users. His goal with iamai-core
-      is to create technology that empowers people rather than exploiting them - AI that truly belongs to
-      its users.
+      Wil's technical vision is complemented by his community leadership, having founded and grown Utah's
+      largest Bitcoin and VR meetup communities. His passion for "making machines that give us the power to
+      be more human" drives iamai-core's mission of creating AI that truly belongs to its users — technology
+      that runs locally, preserves privacy, and learns continually from personal interaction rather than
+      corporate data collection.
 
-      As the project lead, Wil oversees the technical architecture and vision of iamai-core, working to
-      bridge the gap between cutting-edge AI capabilities and practical everyday applications that respect
-      user privacy and ownership.
+      With award-winning projects in AI, blockchain, and VR, Wil bridges cutting-edge technological
+      capabilities with practical applications that respect user agency and ownership.
 
       Connect with Wil: [GitHub](https://github.com/wilbown) - [Twitter](https://x.com/wilbown) - [LinkedIn](https://www.linkedin.com/in/wilbown)
 
