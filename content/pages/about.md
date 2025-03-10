@@ -45,7 +45,7 @@ sections:
 
       ## About the Founder
 
-      ![Wil Bown, Founder](\images\Wil-majestic-portrait-bw-300x300.jpg)
+      ![Wil Bown, Founder](/images/Wil-majestic-portrait-bw-300x300.jpg)
 
       **Wil Bown** is the founder and lead software architect of iamai-core. With extensive experience
       in artificial intelligence and software development, Wil founded iamai-core with a vision to make
