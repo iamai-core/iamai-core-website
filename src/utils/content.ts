@@ -10,6 +10,11 @@ export const siteConfigFile = dataDir + '/config.json';
 
 const supportedFileTypes = ['md', 'json'];
 
+// Normalize path to forward slashes for consistent cross-platform behavior
+function normalizePath(filePath: string): string {
+    return filePath.replace(/\\/g, '/');
+}
+
 function contentFilesInPath(dir: string) {
     const globPattern = `${dir}/**/*.{${supportedFileTypes.join(',')}}`;
     return globSync(globPattern);
@@ -33,15 +38,18 @@ function readContent(file: string): types.Document {
             throw Error(`Unhandled file type: ${file}`);
     }
 
-    content.__id = file;
+    content.__id = normalizePath(file);
     content.__url = fileToUrl(file);
     return content;
 }
 
 function fileToUrl(file: string) {
-    if (!file.startsWith(pagesDir)) return null;
+    const normalizedFile = normalizePath(file);
+    const normalizedPagesDir = normalizePath(pagesDir);
 
-    let url = file.slice(pagesDir.length);
+    if (!normalizedFile.startsWith(normalizedPagesDir)) return null;
+
+    let url = normalizedFile.slice(normalizedPagesDir.length);
     url = url.split('.')[0];
     if (url.endsWith('/index')) {
         url = url.slice(0, -6) || '/';

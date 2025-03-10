@@ -3,76 +3,68 @@ title: Home
 type: Page
 sections:
   - type: HeroSection
-    title: Hero Title
-    subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion'
-    text: >
-      This is the HeroSection component. You can visually edit this component &
-      add more sections while developing locally. [Learn
-      more.](https://docs.netlify.com/visual-editor/local-development/)
+    title: iamai-core
+    subtitle: 'Free & Local AI for Everyone'
+    text: |
+      A personal AI companion that runs locally and learns from you. Just download and start.
+      Powerful for developers, simple for everyone. No cloud services, no data sharing -
+      your AI, your device, your control.
     actions:
       - type: Button
-        label: Start Building
-        url: 'https://docs.netlify.com/visual-editor/get-started/'
+        label: Get Started
+        url: 'https://github.com/iamai-core'
         size: large
         variant: contained
         color: primary
       - type: Button
-        label: Read the Docs
-        url: 'https://docs.netlify.com/visual-editor/overview/'
+        label: Join Discord
+        url: 'https://discord.gg/6TdQR7Ht3U'
         size: large
         variant: outlined
         color: primary
     image:
       type: Image
-      url: /images/hero.svg
-      altText: Hero section image
+      url: \images\iamai-core-visual-2761x1248.jpg
+      altText: iamai-core logo
   - type: CardsSection
-    title: Cards Section Component
-    subtitle: Section subtitle here
+    title: Product Roadmap
+    subtitle: Our development path to personal AI for everyone
     items:
       - type: Card
-        title: First Card Title
-        image:
-          type: Image
-          url: /images/nextjs.svg
-          altText: First item image
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        actions:
-          - type: Button
-            label: Read the Docs
-            url: 'https://docs.netlify.com/visual-editor/overview/'
+        title: "Phase 1: Foundation"
+        text: |
+          Building the core local chat companion with cross-platform support for Windows, macOS, and Linux.
+          Features a self-contained C/C++ AI inference core, React/Next.js frontend, SQLite data storage,
+          and Unity/Unreal Engine plugins.
       - type: Card
-        title: Second Card Title
-        image:
-          type: Image
-          url: /images/mui-5.svg
-          altText: Second item image
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        actions:
-          - type: Button
-            label: Read the Docs
-            url: 'https://docs.netlify.com/visual-editor/overview/'
+        title: "Phase 2: Multimodal Expansion"
+        text: |
+          Adding voice interface with natural conversation, audio processing and response,
+          image recognition capabilities, and an Android app with earbud interface.
+          Implementing speech-to-text, text-to-speech, and remote JNI native Android support.
       - type: Card
-        title: Third Card Title
-        image:
-          type: Image
-          url: /images/ts.svg
-          altText: Third item image
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        actions:
-          - type: Button
-            label: Read the Docs
-            url: 'https://docs.netlify.com/visual-editor/overview/'
+        title: "Phase 3: Knowledge Integration"
+        text: |
+          Integrating personal document ingestion (text files, PDFs, emails), social media history,
+          secure personal data storage, and contextual knowledge retrieval. Implementing document
+          processing pipeline and secure storage with encryption.
+      - type: Card
+        title: "Phase 4: Continual Learning"
+        text: |
+          Enabling real-time learning from user interactions, preference adaptation,
+          conversational memory, and personal context awareness. Implementing lightweight
+          fine-tuning, memory systems, and user feedback incorporation.
+      - type: Card
+        title: "Phase 5: Agentic Desktop Assistant"
+        text: |
+          Adding screen understanding capabilities, PC GUI interaction automation,
+          workflow assistance and optimization, and task completion across multiple applications.
+          Developing screen recognition, input simulation, and safety mechanisms.
+      - type: Card
+        title: "Phase 6: Latent Pool Protocol"
+        text: |
+          Creating secure peer-to-peer AI communication, trust management system,
+          distributed knowledge sharing, and collaborative problem-solving.
+          Implementing inner latent sharing, intrinsic contribution attention,
+          and ZeroMQ for distributed communication.
 ---

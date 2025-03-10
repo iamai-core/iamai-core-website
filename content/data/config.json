@@ -1,8 +1,8 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.svg",
+    "favicon": "\\images\\iamai.ico",
     "header": {
-        "title": "TypeScript + MUI Starter",
+        "title": "iamai-core",
         "navLinks": [
             {
                 "type": "Link",
@@ -18,14 +18,20 @@
             },
             {
                 "type": "Link",
-                "label": "Documentation",
-                "url": "https://docs.netlify.com/visual-editor/overview/",
+                "label": "GitHub",
+                "url": "https://github.com/iamai-core",
+                "underline": "hover"
+            },
+            {
+                "type": "Link",
+                "label": "Discord",
+                "url": "https://discord.gg/6TdQR7Ht3U",
                 "underline": "hover"
             }
         ]
     },
     "footer": {
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/).",
+        "copyrightText": "© 2025 iamai-core | Free & Local AI for Everyone",
         "navLinks": [
             {
                 "type": "Link",
@@ -41,9 +47,27 @@
             },
             {
                 "type": "Link",
-                "label": "Documentation",
+                "label": "GitHub",
                 "underline": "hover",
-                "url": "https://docs.netlify.com/visual-editor/overview/"
+                "url": "https://github.com/iamai-core"
+            },
+            {
+                "type": "Link",
+                "label": "Discord",
+                "underline": "hover",
+                "url": "https://discord.gg/6TdQR7Ht3U"
+            },
+            {
+                "type": "Link",
+                "label": "Twitter",
+                "underline": "hover",
+                "url": "https://x.com/iamai_core"
+            },
+            {
+                "type": "Link",
+                "label": "LinkedIn",
+                "underline": "hover",
+                "url": "https://www.linkedin.com/company/iamai-core"
             }
         ]
     }
