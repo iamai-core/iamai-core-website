@@ -22,8 +22,8 @@ export const Header: React.FC<Props> = (props) => {
     const { title, logo, navLinks = [], 'data-sb-object-id': objectId } = props;
     const fieldPath = objectId ? `${objectId}:header` : null;
     return (
-        <MuiAppBar position="static" color="transparent" elevation={0} data-sb-field-path={fieldPath}>
-            <MuiToolbar disableGutters={true} sx={{ flexWrap: 'wrap' }}>
+        <MuiAppBar position="static" color="transparent" elevation={0} data-sb-field-path={fieldPath} sx={{ pt: 1 }}>
+            <MuiToolbar disableGutters={true} sx={{ flexWrap: 'wrap', py: 1 }}>
                 <MuiBox sx={{ mb: 1, mr: 2, flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                     {logo && (
                         <MuiBox
@@ -31,9 +31,9 @@ export const Header: React.FC<Props> = (props) => {
                             src={logo.url}
                             alt={logo.altText || 'Logo'}
                             sx={{
-                                height: logo.height || 32,
-                                width: logo.width || 32,
-                                mr: 1
+                                height: logo.height || 24,
+                                width: logo.width || 24,
+                                mr: 1.0
                             }}
                             data-sb-field-path=".logo"
                         />

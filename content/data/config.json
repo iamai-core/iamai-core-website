@@ -4,10 +4,10 @@
     "header": {
         "logo": {
             "type": "Image",
-            "url": "/images/iamai-core-icon-circle2-32x32.png",
+            "url": "/images/iamai-core-icon-circle2-24x24.png",
             "altText": "iamai-core logo",
-            "width": 32,
-            "height": 32
+            "width": 24,
+            "height": 24
         },
         "title": "iamai-core",
         "navLinks": [
